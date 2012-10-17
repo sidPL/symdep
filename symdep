@@ -109,9 +109,6 @@ function setup(){
 
 	getProjectPath $1
 
-	checkProjectPath
-
-
 	print "Setting up symfony project to use symdep."
 	
 	if [ ! -f $projectDir/app/config/deployconf.sh ]; then
