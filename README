@@ -34,7 +34,7 @@ executing symdep.
 
 2.2. Configuring web server
 On the server create releases directory, e.g. /home/sid/public_html/releases. Then set up your server 
-DocumentRoot to releases/current (/home/sid/public_html/releases/current). Files are uploaded to 
+DocumentRoot to releases/current/web (/home/sid/public_html/releases/current/web). Files are uploaded to 
 releases/{RELEASE NAME} and symlink from {RELEASE NAME} to current (if you want). 
 
 3. Thats all?
